@@ -63,7 +63,7 @@ function updateUserList(socketIds) {
   });
 }
 
-const serveUrl = 'http://62.171.137.196/voip/';
+const serveUrl = 'https://voip.immo-invr.com/';
 const socket = io.connect(serveUrl);
 
 socket.on("update-user-list", ({ users }) => {
